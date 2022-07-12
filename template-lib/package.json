@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "npm run build:es && npm run build:cjs",
+    "build:es": "babel src --out-dir lib",
+    "build:cjs": "babel src --out-dir es"
+  }
+}

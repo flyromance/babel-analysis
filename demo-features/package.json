@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "babel src --out-dir dist"
+  }
+}
